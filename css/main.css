@@ -1,0 +1,489 @@
+/*======================================
+	Header CSS
+========================================*/
+/*===== NAVBAR =====*/
+.top-header {
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+  padding: 18px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+}
+
+figure {
+  margin: 0px;
+}
+
+h1 {
+  font-size: 68px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  font-weight: normal;
+  color: #000000;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Rubik", sans-serif;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+a {
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  font-weight: normal;
+  color: inherit;
+  font-family: inherit;
+  text-decoration: none;
+}
+
+a:hover, a:focus, a.active {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.3s;
+}
+
+input {
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+input[type=text],
+input[type=password],
+input[type=date],
+input[type=url],
+input[type=search],
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=time],
+.form-control, textarea, select.form-select, .form-control {
+  height: 44px;
+  border-radius: 0.25rem;
+  box-shadow: none;
+  border: none;
+  border: 1px solid rgba(0, 85, 167, 0.3);
+  color: #000000;
+  font-size: 14px;
+}
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=date]:focus,
+input[type=url]:focus,
+input[type=search]:focus,
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=tel]:focus,
+input[type=time]:focus,
+.form-control:focus, textarea:focus, select.form-select:focus, .form-control:focus {
+  box-shadow: none;
+  outline: none;
+  border: 1px solid rgba(0, 85, 167, 0.3);
+}
+
+textarea, textarea.form-control {
+  height: auto;
+  padding: 10px;
+  min-height: 100px;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 85, 167, 0.2);
+}
+
+.bg-yellow {
+  background-color: #F2932F;
+}
+
+.cstm-btn {
+  color: #fff;
+  padding: 10px 35px;
+  display: inline-block;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 18px;
+}
+.cstm-btn:hover {
+  color: #fff;
+}
+
+.heading-title {
+  font-weight: 400;
+  color: #000000;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-family: "Rubik", sans-serif;
+}
+.heading-title span {
+  color: #0055A7;
+}
+
+/* 
+------------------------------------
+All input form css here
+------------------------------------
+ */
+.symptoms-area {
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  background-color: #EDF0F3;
+  border: 1px solid #D6E4F1;
+  padding: 35px 42px 40px;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+.form-title label {
+  color: #424242;
+}
+.form-title input {
+  border: 1px solid rgba(0, 85, 167, 0.2);
+}
+
+.form-title input::placeholder {
+  color: rgba(81, 81, 81, 0.8);
+  font-size: 14px;
+}
+
+.form-title textarea::placeholder {
+  color: rgba(81, 81, 81, 0.8);
+  font-size: 14px;
+}
+
+.checkinfo .custom-checkbox span {
+  color: rgba(81, 81, 81, 0.8);
+  font-size: 14px;
+}
+
+.symptoms-content .checkinfo {
+  background: #F8FBFF;
+}
+.symptoms-content .checkinfo .custom-checkbox span {
+  color: #424242;
+  font-size: 16px;
+}
+
+.checkinfo {
+  background: #fff;
+  padding: 8px 12px;
+  border: 1px solid rgba(0, 85, 167, 0.2);
+  border-radius: 4px;
+  width: 48.7%;
+}
+
+.custom-checkbox input[type=checkbox] {
+  appearance: none; /* Remove default checkbox style */
+  width: 20px; /* Custom width */
+  height: 20px; /* Custom height */
+  border: 2px solid rgba(135, 135, 135, 0.5); /* Border style */
+  border-radius: 4px; /* Optional: rounded corners */
+  background-color: #fff; /* Background */
+  cursor: pointer;
+  vertical-align: middle;
+  position: relative;
+}
+
+.custom-checkbox input[type=checkbox]:checked {
+  background-color: #0055A7; /* Checked background */
+  border-color: #0055A7;
+}
+
+.custom-checkbox input[type=checkbox]::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 6px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  display: none;
+}
+
+.custom-checkbox input[type=checkbox]:checked::after {
+  display: block;
+}
+
+.submit-area button {
+  width: 100%;
+  border: 0;
+  background-color: #D6E4F1;
+  color: #424242;
+  font-weight: 600;
+  font-size: 18px;
+  transition: 0.3s;
+}
+.submit-area button:hover {
+  background-color: #0055A7;
+  color: #fff;
+  transition: 0.3s;
+}
+.submit-area button:hover svg path {
+  fill: #fff;
+  transition: 0.3s;
+}
+.submit-area button svg path {
+  fill: #595959;
+}
+
+.patient-area {
+  background-color: #EDF0F3;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 15px;
+  border: 1px solid #D6E4F1;
+}
+
+.symptoms-list .custom-checkbox input:checked + span {
+  color: #0055A7;
+  font-weight: 600;
+}
+
+.doctor-name {
+  font-weight: 600;
+  color: #034992;
+  font-size: 16px;
+  margin-bottom: 8px;
+  margin-top: 15px;
+}
+
+.designantion-title {
+  font-weight: 500;
+  color: #313131;
+}
+
+.symptoms-area ul {
+  border: 1px solid #C9E3FB;
+  background-color: rgb(201, 227, 251);
+}
+.symptoms-area ul li:nth-child(2) {
+  border-right: 1px solid rgba(0, 85, 167, 0.16);
+}
+
+.symptoms-area .nav-pills .nav-link {
+  color: #424242 !important;
+  padding: 10px 28px;
+  font-size: 17px;
+  font-family: "Roboto Flex", sans-serif;
+  border-radius: 0px;
+}
+
+.symptoms-area .nav-pills .nav-link path {
+  fill: #424242;
+}
+
+.symptoms-area .nav-pills .nav-link.active path,
+.symptoms-area .nav-pills .show > .nav-link path {
+  fill: #fff !important;
+}
+
+.symptoms-area .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #0055A7;
+  border-radius: 0px;
+  color: #fff !important;
+  font-family: "Roboto Flex", sans-serif;
+}
+
+.symptoms-area .tab-content {
+  padding: 15px 25px 30px;
+  background: #fff;
+}
+
+.screen-icon {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 60px;
+  height: 60px;
+  background: white;
+  line-height: 60px;
+  border-radius: 4px;
+  border: 1px solid #D8E9E1;
+}
+
+.symptom-head {
+  font-size: 21px;
+  color: #000000;
+}
+
+.symptoms-content {
+  padding-top: 100px;
+  max-width: 550px;
+  margin: 0 auto;
+  padding-bottom: 231px;
+}
+
+.symptom-head {
+  font-size: 21px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.symptoms-list {
+  margin-bottom: 15px;
+}
+
+.component1 {
+  position: absolute;
+  left: 48px;
+  z-index: -1;
+  top: 40px;
+}
+
+.component2 {
+  position: absolute;
+  left: 48px;
+  z-index: -1;
+  top: 40px;
+}
+
+.component2 {
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  top: 55%;
+  transform: translateY(-50%);
+}
+
+.component3 {
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  bottom: 0%;
+}
+
+.component3 {
+  position: absolute;
+  left: 4%;
+  z-index: -1;
+  bottom: -3%;
+}
+
+.component4 {
+  position: absolute;
+  right: 4%;
+  top: 5%;
+  z-index: -1;
+}
+
+.component5 {
+  position: absolute;
+  right: 10%;
+  z-index: -1;
+  top: 55%;
+  transform: translateY(-50%);
+}
+
+.component6 {
+  position: absolute;
+  right: 4%;
+  z-index: -1;
+  bottom: -3%;
+}
+
+@media (max-width: 991px) {
+  .symptoms-content {
+    padding-top: 15px;
+    padding-bottom: 0px;
+  }
+  .symptoms-area ul li:nth-child(2) {
+    border-right: none;
+  }
+  .submit-area button {
+    border-radius: 4px;
+  }
+  .symptoms-area {
+    border-radius: 4px;
+  }
+  .symptoms-area .nav {
+    border-radius: 4px;
+  }
+  .symptoms-area .nav-pills .nav-link.active,
+  .nav-pills .show > .nav-link {
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+  }
+}
+@media (max-width: 576px) {
+  .heading-title {
+    font-size: 26px;
+  }
+  .form-title {
+    padding: 35px 15px 40px;
+  }
+  .symptoms-area .nav {
+    margin: 0px 15px;
+  }
+  .symptoms-area .tab-content {
+    padding: 15px 15px 30px;
+  }
+  .component3,
+  .component6,
+  .component1 {
+    display: none;
+  }
+  .submit-area {
+    margin: 0px 15px;
+  }
+}/*# sourceMappingURL=main.css.map */

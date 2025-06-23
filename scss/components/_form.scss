@@ -1,0 +1,141 @@
+
+/* 
+------------------------------------
+All input form css here
+------------------------------------
+ */
+ .symptoms-area{
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, .10);
+ }
+ .form-title{
+    background-color: #EDF0F3;
+    border: 1px solid $border;
+    padding: 35px 42px 40px;
+    border-radius: 4px;
+    margin-top: 15px;
+    label{
+      color: $gray;
+    }
+       input{
+        border: 1px solid rgba(0, 85, 167, 0.2);
+    }
+ }
+ .form-title input::placeholder{
+   color: rgba(81, 81, 81, .8);
+  font-size: 14px;
+ }
+  .form-title textarea::placeholder{
+   color: rgba(81, 81, 81, .8);
+  font-size: 14px;
+ }
+ .checkinfo{
+    .custom-checkbox{
+      span{
+        color: rgba(81, 81, 81, .8);
+        font-size: 14px;
+      }
+    }
+ }
+ .symptoms-content{
+  .checkinfo{
+   background:#F8FBFF;
+   .custom-checkbox{
+    span{
+      color: $gray;
+      font-size: 16px;
+    }
+   }
+  }
+
+ }
+ .checkinfo{
+    background: $white;
+    padding: 8px 12px;
+    border: 1px solid rgba(0, 85, 167, 0.2);
+    border-radius: 4px;
+    width: 48.7%;
+ }
+
+.custom-checkbox input[type="checkbox"] {
+  appearance: none;           /* Remove default checkbox style */
+  width: 20px;                /* Custom width */
+  height: 20px;               /* Custom height */
+  border: 2px solid rgba(135, 135, 135, 0.5);     /* Border style */
+  border-radius: 4px;         /* Optional: rounded corners */
+  background-color: #fff;     /* Background */
+  cursor: pointer;
+  vertical-align: middle;
+  position: relative;
+}
+
+.custom-checkbox input[type="checkbox"]:checked {
+  background-color: $primary; /* Checked background */
+  border-color: $primary;
+}
+
+.custom-checkbox input[type="checkbox"]::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 6px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  display: none;
+}
+
+.custom-checkbox input[type="checkbox"]:checked::after {
+  display: block;
+}
+.submit-area {
+  button{
+    width: 100%;
+    border: 0;
+    background-color: #D6E4F1;
+    color: #424242;
+    font-weight: 600;
+    font-size: 18px;
+     transition: .3s;
+    &:hover{
+      background-color: $primary;
+      color: $white;
+      transition: .3s;
+      svg{
+        path{
+          fill: $white;
+          transition: .3s;
+        }
+      }
+    }
+    svg{
+      path{
+        fill: #595959;
+      }
+    }
+  }
+}
+.patient-area{
+  background-color: #EDF0F3;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 15px;
+  border: 1px solid #D6E4F1;
+}
+.symptoms-list .custom-checkbox input:checked + span {
+  color: $primary;
+  font-weight: 600;
+}
+.doctor-name{
+  font-weight: 600;
+  color: #034992;
+  font-size: 16px;
+  margin-bottom: 8px;
+  margin-top: 15px;
+}
+.designantion-title{
+  font-weight: 500;
+  color: #313131;
+
+}

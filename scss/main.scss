@@ -1,0 +1,23 @@
+
+// Layout
+@import 'layout/header';
+
+// 1 Configuration and helper
+
+@import 'utilites/variables';
+
+// 2 All vendors
+@import 'vendors/vendors_import';
+
+// 3 Base
+@import 'base/global';
+
+// 4 Components
+
+@import 'components/form';
+@import 'components/tabs';
+
+// 5 Pages
+@import 'pages/home';
+
+
