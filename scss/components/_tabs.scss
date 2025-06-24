@@ -127,14 +127,25 @@
 #toggleContent {
     display: none;
 }
+#toggleContent2{
+  display: none;
+}
 .doctor-bg {
     background-color: #EDF0F3;
     padding: 30px 50px;
     margin: 20px;
     border-radius: 4px;
 }
+
 #toggleButton {
     position: absolute;
+    right: 0;
+    bottom: 20px;
+    width: 60px;
+    height: 30px;
+}
+#toggleButton2{
+   position: absolute;
     right: 0;
     bottom: 20px;
     width: 60px;
