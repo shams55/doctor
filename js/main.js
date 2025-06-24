@@ -29,5 +29,13 @@ $('#toggleButton2').on('click', function () {
     }
 });
 
+document.querySelectorAll('a').forEach(function(anchor){
+    anchor.addEventListener('click', function(e){
+        e.preventDefault();
+    })
+})
+
+
+
 })(jQuery);
 
