@@ -312,11 +312,11 @@ All input form css here
   color: #313131;
 }
 
-.symptoms-area ul {
+.symptoms-area ul.nav {
   border: 1px solid #C9E3FB;
   background-color: rgb(201, 227, 251);
 }
-.symptoms-area ul li:nth-child(2) {
+.symptoms-area ul.nav li:nth-child(2) {
   border-right: 1px solid rgba(0, 85, 167, 0.16);
 }
 
@@ -440,6 +440,43 @@ All input form css here
   right: 4%;
   z-index: -1;
   bottom: -3%;
+}
+
+#toggleContent {
+  display: none;
+}
+
+.doctor-bg {
+  background-color: #EDF0F3;
+  padding: 30px 50px;
+  margin: 20px;
+  border-radius: 4px;
+}
+
+#toggleButton {
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+  width: 60px;
+  height: 30px;
+}
+
+.doctor-info {
+  flex: 1 1 calc(25% - 1rem);
+  max-width: calc(25% - 1rem);
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.department-info ul li {
+  color: #0055A7;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+.department-info ul li span {
+  color: #000000;
+  padding-right: 10px;
 }
 
 @media (max-width: 991px) {

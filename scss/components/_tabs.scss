@@ -1,6 +1,6 @@
 
 .symptoms-area{
-    ul{
+    ul.nav{
       border: 1px solid #C9E3FB;
       background-color: rgba(201, 227, 251, 1);
       li:nth-child(2){
@@ -115,6 +115,50 @@
     right: 4%;
     z-index: -1;
     bottom: -3%;
+}
+// .doctor-list-profile{
+//   display: none !important;
+// }
+// .doctor-list.activebtn{
+//   display: block !important;
+//   display: flex !important;
+// }
+
+#toggleContent {
+    display: none;
+}
+.doctor-bg {
+    background-color: #EDF0F3;
+    padding: 30px 50px;
+    margin: 20px;
+    border-radius: 4px;
+}
+#toggleButton {
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    width: 60px;
+    height: 30px;
+}
+.doctor-info{
+  flex: 1 1 calc(25% - 1rem);
+  max-width: calc(25% - 1rem);
+  box-sizing: border-box;
+  text-align: center;
+}
+.department-info{
+  ul{
+    li{
+      color: $primary;
+      font-weight: 600;
+      font-size: 16px;
+      margin-bottom: 4px;
+      span{
+        color: $black;
+        padding-right: 10px;
+      }
+    }
+  }
 }
 @media (max-width: 991px) {
  .symptoms-content {
