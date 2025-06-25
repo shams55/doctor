@@ -195,6 +195,19 @@
     border-top-right-radius: 4px;
     border-top-left-radius: 4px;
   }
+  .doctor-info {
+    flex: 1 1 calc(33% - 1rem);
+    max-width: calc(33% - 1rem);
+  }
+  .department-info{
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 768px) {
+ .doctor-info {
+    flex: 1 1 calc(50% - 1rem);
+    max-width: calc(50% - 1rem);
+  }
 }
 @media (max-width: 576px) {
   .heading-title{
@@ -220,5 +233,10 @@
       margin: 0px 15px;
   }
 }
-
+@media (max-width: 400px) {
+  .doctor-info {
+    flex: 1 1 calc(100% - 1rem);
+    max-width: calc(100% - 1rem);
+  }
+}
 
