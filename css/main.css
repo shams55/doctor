@@ -216,6 +216,7 @@ All input form css here
 
 .symptoms-content .checkinfo {
   background: #F8FBFF;
+  height: 68px;
 }
 .symptoms-content .checkinfo .custom-checkbox span {
   color: #424242;
@@ -368,10 +369,10 @@ All input form css here
 }
 
 .symptoms-content {
-  padding-top: 100px;
-  max-width: 550px;
+  padding-top: 40px;
+  max-width: 80%;
   margin: 0 auto;
-  padding-bottom: 231px;
+  padding-bottom: 30px;
 }
 
 .symptom-head {

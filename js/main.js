@@ -35,6 +35,27 @@ document.querySelectorAll('a').forEach(function(anchor){
     })
 })
 
+    $('.symptoms-list .checkinfo').each(function(){
+        const spanText = $(this).find('span').text().trim();
+        if(spanText.length > 120){
+
+            $(this).css({
+            'height': '68px',
+            'overflow': 'hidden',
+            'transition': 'all 0.3s ease'
+        });
+
+            $(this).hover(
+                function() {
+                    $(this).css('height', '120px');
+                    
+                },
+                function() {
+                    $(this).css('height', '68px');
+                }
+            );
+        }
+    });
 
 
 })(jQuery);
