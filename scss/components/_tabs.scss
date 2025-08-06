@@ -171,6 +171,71 @@
     }
   }
 }
+
+
+
+.department-area{
+    padding-top: 40px;
+    max-width: 56%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    .symptom-head{
+      margin-bottom: 45px;
+    }
+}
+.department-area{
+  .department-box{
+    background-color: #D6E4F1;
+    border: 1px solid #C7DBED;
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    .icon{
+      width: 70px;
+      height: 70px;
+      border-radius: 100px;
+      background-color: #fff;
+      border: 1px solid #C7DBED;
+      text-align: center;
+      margin: 0 auto;
+      padding: 14px;
+    }
+    .content{
+      margin-top: 18px;
+      p{
+        color: #313131;
+        font-family: $roboto;
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 4px;
+        span{
+          font-weight: 600;
+          color: #034992
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1399px) {
+    .department-area {
+      max-width: 80%;
+    }
+}
+
 @media (max-width: 991px) {
  .symptoms-content {
     padding-top: 15px;
@@ -207,6 +272,11 @@
  .doctor-info {
     flex: 1 1 calc(50% - 1rem);
     max-width: calc(50% - 1rem);
+  }
+}
+@media (max-width: 767px) {
+  .department-box{
+    text-align: center;
   }
 }
 @media (max-width: 576px) {
